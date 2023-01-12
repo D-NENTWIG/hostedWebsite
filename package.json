@@ -1,7 +1,7 @@
 {
   "name": "personal-project-site",
   "version": "0.1.0",
-  "homepage": "https://D-NENTWIG.github.io/hostedWebsite",
+  "homepage": "https://nentwigd.co.uk",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
