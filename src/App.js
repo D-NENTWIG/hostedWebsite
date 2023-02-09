@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>You just got Twig'd</h1>
-        <p>I'm Sorry</p>
-      </header>
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element={<Layout />} />
+    </Routes>
+    </>
   );
 }
 
