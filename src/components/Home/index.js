@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Loader from 'react-loaders';
 import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/NENTWIG.png';
 import AnimatedLetters from '../AnimatedLetters';
@@ -16,34 +17,37 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="container home-page">
-            <div className="text-zone">
+        <>
+            <div className="container home-page">
+                <div className="text-zone">
 
-                <h1>
-                <span className={letterClass}>H</span>
-                <span className={`${letterClass} _12`}>i</span>
-                <span className={`${letterClass} _13`}> </span>
-                <span className={`${letterClass} _14`}>I</span>
-                <span className={`${letterClass} _15`}>'m</span>
-                    
-                <br /> 
+                    <h1>
+                    <span className={letterClass}>H</span>
+                    <span className={`${letterClass} _12`}>i</span>
+                    <span className={`${letterClass} _13`}> </span>
+                    <span className={`${letterClass} _14`}>I</span>
+                    <span className={`${letterClass} _15`}>'m</span>
+                        
+                    <br /> 
 
-                <AnimatedLetters letterClass={letterClass}
-                strArray={nameArray}
-                idx={16} />
+                    <AnimatedLetters letterClass={letterClass}
+                    strArray={nameArray}
+                    idx={16} />
 
-                <img src={LogoTitle} alt="developer" />
-                <br/>
+                    <img src={LogoTitle} alt="developer" />
+                    <br/>
 
-                <AnimatedLetters letterClass={letterClass}
-                strArray={jobArray}
-                idx={21} />
+                    <AnimatedLetters letterClass={letterClass}
+                    strArray={jobArray}
+                    idx={21} />
 
-                </h1>
-                <h2>Student at UCL | Computer Science</h2>
-                <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                    </h1>
+                    <h2>Student at UCL | Computer Science</h2>
+                    <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                </div>
             </div>
-        </div>
+            <Loader type='pacman' />
+        </>
     );
 }
 
