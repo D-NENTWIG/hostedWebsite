@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ddf1b9b2.css",
-    "main.js": "/static/js/main.ecd41b8c.js",
+    "main.js": "/static/js/main.302f665b.js",
     "static/js/787.3325189d.chunk.js": "/static/js/787.3325189d.chunk.js",
     "static/media/NENTWIG.png": "/static/media/NENTWIG.0ff3cdb20c9ced494d39.png",
     "static/media/LOGO.jpeg": "/static/media/LOGO.6d0709cdbf28389b7d9b.jpeg",
@@ -10,11 +10,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.ddf1b9b2.css.map": "/static/css/main.ddf1b9b2.css.map",
-    "main.ecd41b8c.js.map": "/static/js/main.ecd41b8c.js.map",
+    "main.302f665b.js.map": "/static/js/main.302f665b.js.map",
     "787.3325189d.chunk.js.map": "/static/js/787.3325189d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddf1b9b2.css",
-    "static/js/main.ecd41b8c.js"
+    "static/js/main.302f665b.js"
   ]
 }
