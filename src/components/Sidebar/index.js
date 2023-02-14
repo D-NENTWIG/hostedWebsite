@@ -1,5 +1,4 @@
 import './index.scss'
-import { useState } from 'react'
 import LogoS from '../../assets/images/LOGO.jpeg'
 import LogoSubtitle from '../../assets/images/NENTWIG.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,9 +12,6 @@ import {
   faHome,
   faUser,
   faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
