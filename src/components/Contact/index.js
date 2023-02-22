@@ -113,7 +113,7 @@ const Contact = () => {
       </div>
       <Loader type="pacman" />
     </>
-  )
+  );
 }
 
 export default Contact

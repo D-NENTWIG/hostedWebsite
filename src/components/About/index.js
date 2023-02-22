@@ -57,7 +57,7 @@ const About = () => {
             </div>
             <Loader type='pacman' />
         </>
-    )
+    );
 }
 
 export default About
