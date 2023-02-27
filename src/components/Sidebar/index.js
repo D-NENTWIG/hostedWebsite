@@ -67,7 +67,7 @@ const Sidebar = () => (
         <a
           target={'_blank'}
           rel="noreferrer"
-          href="https://youtu.be/6NOtF4l9i9g"
+          href="https://www.youtube.com/watch?v=1l8DVDo84CM"
         >
           <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
         </a>
