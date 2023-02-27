@@ -1,5 +1,5 @@
 import './index.scss'
-import LogoS from '../../assets/images/LOGO.jpeg'
+import LogoS from '../../assets/images/LOGO.png'
 import LogoSubtitle from '../../assets/images/NENTWIG.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {

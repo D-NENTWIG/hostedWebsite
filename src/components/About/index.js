@@ -27,7 +27,7 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>Hi, I'm David, and I'm an ambitious and hardworking individual with a passion for programming. My expertise lies in programming languages like Java, Python, C, React, and HTML5. I also have experience with Unity and Swift, and I'm constantly expanding my skillset to take on new challenges.</p>
+                    <p>Hi, I'm David, I'm an ambitious and hardworking individual with a passion for programming. My expertise lies in programming languages like Java, Python, C, React, and HTML5. I also have experience with Unity and Swift, and I'm constantly expanding my skillset to take on new challenges.</p>
                     <p>My love for programming began when I was in school, and since then, I've been honing my skills to become a proficient programmer. My dedication and hard work have allowed me to master multiple programming languages, and I enjoy solving complex programming problems that challenge me to push my limits. I thrive on the satisfaction that comes from overcoming these challenges and seeing my ideas come to life through programming.</p>
                     <p>Apart from programming, I'm always looking for new opportunities to learn and grow, whether it's through attending coding workshops or working on side projects. I believe that my proficiency in programming and my hunger for knowledge make me a valuable asset to any team. I'm excited about the possibilities that programming can offer, and I'm always eager to take on new projects that challenge me and help me grow as a programmer.</p>
                 </div>
