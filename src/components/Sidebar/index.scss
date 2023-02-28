@@ -89,6 +89,12 @@
             }
         }
 
+        a.cv-link {
+            &:after {
+                content: 'CV';
+            }
+        }
+
         a.active {
             svg {
                 color: #ffd700;
