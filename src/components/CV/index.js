@@ -32,7 +32,7 @@ const CV = () => {
                     </p>
                 </div>
                 <div className='pdf-area'>
-                    <embed title='My CV' src={cv} width="500px" height="690px" />
+                    <embed title='My CV' src={cv}  />
                 </div>
             </div>
             <Loader type='pacman' />

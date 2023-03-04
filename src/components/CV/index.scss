@@ -18,20 +18,21 @@
 }
 
 .pdf-area{
-    width: auto;
-    height: auto;
-    top: 0;
+    height: 90%;
+    width: 30%;
     padding-top: 18%;
     margin-left: 0;
     position: absolute;
     right: 10%;
-    overflow: hidden;
     background: #115173;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
     opacity: 0;
     box-shadow: 0 0 20px 0px black;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
+
+    embed{
+        height: 100%;
+        width: 100%;
+    }
 }
