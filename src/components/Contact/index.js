@@ -96,7 +96,7 @@ const Contact = () => {
           <br />
           Camden
           <br />
-          <span>David.Nentwig@icloud.com</span>
+          <span className='persEmail'>David.Nentwig@icloud.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer

@@ -6,11 +6,29 @@ html{
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #444;
-  background-color: #022c43;
+  background-color: rgb(32, 31, 31);
   overflow: hidden;
-  display: block;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /*Base Stuff*/
+  --midGround: rgba(255, 21, 251, 0.202);
+  --background: black;
+  --headings: white;
+  --subheadings: #746d6d;
+  --button: #a60fb7;
+  --text: white;
+
+  /*Home*/
+  --hoverHome: rgb(190, 62, 190);
+
+  /*Layout (changes animated letters hover)*/
+  --hoverLayout: rgb(190, 62, 190);
+
+  /*Sidebar*/
+  --hoverSidebar: rgb(235, 123, 250);
+  --icons: #ffffff;
+  --sidebarBackground: #3a3a3a;
 }
 
