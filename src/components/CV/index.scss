@@ -23,6 +23,7 @@
     display: flex;
     margin-left: auto;
     margin-right: 10%;
+
     background: var(--midGround);
     padding: 20px;
     opacity: 0;
@@ -34,5 +35,34 @@
     .embeddedCV{
         height: 100%;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        position: initial;
+        height: auto;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    &.cv-page {
+        .text-zone{
+          position: initial;
+          width: 80%;
+          transform: none;
+          width: 100%;
+          display: block;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+        h1{
+            font-size: 48px;
+        }
+      }
+    }
+    .pdf-area{
+        margin-left: 30%;
     }
 }
