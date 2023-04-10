@@ -35,10 +35,17 @@
     .embeddedCV{
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
 }
 
 @media only screen and (max-width: 1200px) {
+    .page{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
     .container{
         position: initial;
         height: auto;
@@ -48,6 +55,9 @@
         gap: 20px;
 
     &.cv-page {
+        height: 100%;
+        width: 100%;
+
         .text-zone{
           position: initial;
           width: 80%;
@@ -63,6 +73,8 @@
       }
     }
     .pdf-area{
-        margin-left: 30%;
+        margin: 5%;
+        height: 80%;
+        width: auto;
     }
 }

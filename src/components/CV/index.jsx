@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import cv from '../../assets/files/CV_David_Nentwig_2023.pdf'
+import BlurredCircle from '../cursorFollow'
 
 
 
@@ -18,6 +19,7 @@ const CV = () => {
 
       return(
         <>
+            <BlurredCircle/>
             <div className='container cv-page'>
                 <div className='text-zone'>
                     <h1>

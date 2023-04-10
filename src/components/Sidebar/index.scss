@@ -145,32 +145,25 @@
               top: 0;
               left: 0;
               background: var(--sidebarBackground);
-              height: 10%;
+              height: 60px;
               margin: 0;
-              z-index: 2;
+              z-index: 3;
               position: fixed;
         
               &.mobile-show {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: flex-start;
+                gap: 20%;
+                align-items: center;
               }
-        
-              a {
-                display: flex;
-                justify-content: center;
-                align-items: flex-end;
+              a{
+                left: 5%;
               }
         
               a:after {
-                opacity: 1;
-                position: initial;
-                width: auto;
-                margin-left: 10PX;
+                opacity: 0;
               }
-        
-              a svg {
-                opacity: 1 !important;
-              }
+              
              }
         
              .hamburger-icon,

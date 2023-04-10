@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faJava, faPython, faReact, faUnity } from '@fortawesome/free-brands-svg-icons'
 import { faC } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
+import BlurredCircle from '../cursorFollow'
 
 const About = () => {
 
@@ -18,6 +19,7 @@ const About = () => {
 
     return(
         <>
+            <BlurredCircle/>
             <div className='container about-page'>
                 <div className='text-zone'>
                     <h1>

@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import BlurredCircle from '../cursorFollow'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -38,6 +39,7 @@ const Contact = () => {
 
   return (
     <>
+      <BlurredCircle/>
       <div className="container contact-page">
         <div className="text-zone">
           <h1>
